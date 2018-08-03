@@ -16,6 +16,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+
         textcalc=(TextView)findViewById(R.id.text);
         Button b1=(Button)findViewById(R.id.button);
         Button b2=(Button)findViewById(R.id.button2);
